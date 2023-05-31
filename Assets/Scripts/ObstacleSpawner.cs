@@ -25,11 +25,14 @@ public class ObstacleSpawner : MonoBehaviour
 
     void Update()
     {
-        timer += Time.deltaTime;
-        if (timer >= maxTime) 
+        if(!GameManager.gameOver)
         {
-            InstantiateObstacle();
-            timer = 0;
+            timer += Time.deltaTime;
+            if (timer >= maxTime)
+            {
+                InstantiateObstacle();
+                timer = 0;
+            }
         }
     }
 }
