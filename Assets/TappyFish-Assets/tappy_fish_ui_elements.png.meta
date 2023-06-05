@@ -192,7 +192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldMedal
+      name: BronzMedal
       rect:
         serializedVersion: 2
         x: 1454
@@ -213,7 +213,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BronzeMedal
+      name: GoldMedal
       rect:
         serializedVersion: 2
         x: 1744
@@ -496,9 +496,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GoldMedal: -37552407
       Obstacle: 1557732049
       tappy_fish_ui_elements_0: 978385780
+      GoldMedal: 663016427
       Fish: -1624059803
       tappy_fish_ui_elements_23: 301367346
       tappy_fish_ui_elements_27: 60442097
@@ -510,6 +510,7 @@ TextureImporter:
       MetalicMedal: 1141832115
       Line_2: 297142042
       SilverMedal: 2111003787
+      BronzMedal: -37552407
       TapPannel: 987188207
       tappy_fish_ui_elements_4: -1830002596
       GameOver: 879254300
@@ -518,7 +519,6 @@ TextureImporter:
       TapLeft: 2014710424
       Restart: -796394803
       Line_1: -524563979
-      BronzeMedal: 663016427
       Line_3: 774521813
       Background: 895200877
       Fish_3: -652588042
